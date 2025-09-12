@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Nordbok Support</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; line-height: 1.6;">
+  <h1>Nordbok Support</h1>
+  <p>Velkommen til Nordbok! Hvis du trenger hjelp, ta kontakt med oss:</p>
+  <ul>
+    <li>E-post: <a href="mailto:nordbok@outlook.com">nordbok@outlook.com</a></li>
+    <li>Telefon: +47 92774086</li>
+  </ul>
+  <p>Nordbok er en norsk læringsapp laget av Danial Habib.</p>
+  <p>Takk for at du bruker Nordbok!</p>
+</body>
+</html>
