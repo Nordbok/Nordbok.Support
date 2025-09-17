@@ -2,126 +2,157 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nordbok – Privacy Policy</title>
   <style>
+    :root {
+      --brand: #8c0a12;
+      --ink: #222;
+      --bg: #f7f7f7;
+      --card: #fff;
+      --muted: #666;
+      --rule: #eee;
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      color: #222;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--ink);
       margin: 0;
-      padding: 0;
       line-height: 1.6;
     }
     header {
-      background-color: #8c0a12;
-      color: white;
+      background-color: var(--brand);
+      color: #fff;
       padding: 2rem 1rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p  { margin: .5rem 0 0; opacity: .95; }
     main {
       max-width: 900px;
       margin: 2rem auto;
       padding: 1rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,.06);
     }
     h2 {
       margin-top: 2rem;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--rule);
     }
-    ul {
-      padding-left: 1.2rem;
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: .5rem; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta {
+      color: var(--muted);
+      font-size: .95rem;
+      margin-top: .25rem;
     }
-    li {
-      margin-bottom: 0.5rem;
+    .notice {
+      background: #fff5f5;
+      border: 1px solid #ffd6d6;
+      padding: .75rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      color: #5a0a0f;
     }
     footer {
       text-align: center;
       padding: 2rem 1rem;
-      background-color: #8c0a12;
+      background-color: var(--brand);
       color: white;
       margin-top: 3rem;
     }
+    footer a { color: #fff; text-decoration: underline; }
   </style>
 </head>
 <body>
   <header>
     <h1>📘 Nordbok – Privacy Policy & Data Collection</h1>
-    <p>Complete overview of data types, usage, link to identity, and tracking</p>
+    <p>Overview of data types, usage, linkage to identity, and tracking</p>
+    <div class="meta">Last updated: September 2025</div>
   </header>
 
   <main>
+    <div class="notice">
+      For Terms of Use (EULA), see:
+      <a href="https://nordbok.github.io/Nordbok.Support/terms.html">https://nordbok.github.io/Nordbok.Support/terms.html</a>
+    </div>
+
     <h2>Overview</h2>
     <p>
       This document provides a full overview of the types of data collected in the Nordbok app,
       how they are used, whether they are linked to the user’s identity, and whether they are used for tracking.
-      This reflects the selections made for App Store and Google Play.
+      This reflects the selections made for the App Store.
     </p>
 
     <h2>📂 Contact Information</h2>
     <ul>
-      <li><strong>Name</strong> – Linked to identity: Yes | Tracking: No</li>
-      <li><strong>Email address</strong> – Linked to identity: Yes | Tracking: Yes</li>
-      <li><strong>Phone number</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Name</strong> — Linked to identity: Yes | Tracking: No</li>
+      <li><strong>Email address</strong> — Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Phone number</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
     <h2>💳 Financial Information</h2>
     <ul>
-      <li><strong>Payment information</strong> – Linked to identity: Yes | Tracking: No</li>
+      <li><strong>Payment information</strong> — Linked to identity: Yes | Tracking: No</li>
     </ul>
 
     <h2>📇 Contacts</h2>
     <ul>
-      <li><strong>Contacts</strong> – Linked to identity: Yes | Tracking: No</li>
+      <li><strong>Contacts</strong> — Linked to identity: Yes | Tracking: No</li>
     </ul>
 
     <h2>✉️ User-Generated Content</h2>
     <ul>
-      <li><strong>Emails or text messages</strong> – Linked to identity: Yes | Tracking: No</li>
-      <li><strong>Photos or videos</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Emails or text messages</strong> — Linked to identity: Yes | Tracking: No</li>
+      <li><strong>Photos or videos</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
     <h2>🔎 User Activity</h2>
     <ul>
-      <li><strong>Search history</strong> – Linked to identity: Yes | Tracking: Yes</li>
-      <li><strong>Purchase history</strong> – Linked to identity: Yes | Tracking: Yes</li>
-      <li><strong>Product interaction</strong> – Linked to identity: Yes | Tracking: Yes</li>
-      <li><strong>Other usage data</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Search history</strong> — Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Purchase history</strong> — Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Product interaction</strong> — Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Other usage data</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
     <h2>🔧 Diagnostics & Performance</h2>
     <ul>
-      <li><strong>Crash data</strong> – Linked to identity: Yes | Tracking: No</li>
-      <li><strong>Performance data</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Crash data</strong> — Linked to identity: Yes | Tracking: No</li>
+      <li><strong>Performance data</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
     <h2>🆔 Identifiers</h2>
     <ul>
-      <li><strong>User ID</strong> – Linked to identity: Yes | Tracking: Yes</li>
-      <li><strong>Device ID</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>User ID</strong> — Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Device ID</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
     <h2>📁 Other Data</h2>
     <ul>
-      <li><strong>Other data types</strong> – Linked to identity: Yes | Tracking: Yes</li>
+      <li><strong>Other data types</strong> — Linked to identity: Yes | Tracking: Yes</li>
     </ul>
 
-    <h2>✅ Summary</h2>
+    <h2>App Tracking Transparency (ATT)</h2>
     <p>
-      Nordbok collects only the data necessary to provide app functionality, analytics, personalization, and marketing.
-      Certain data types are used for tracking via third-party SDKs, in line with App Store and Google Play guidelines.
+      If the app engages in tracking as defined by Apple, Nordbok will request your permission via the
+      AppTrackingTransparency prompt. You can change your choice at any time in iOS Settings.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy questions or requests, contact:
+      <a href="mailto:nordbok@outlook.com">nordbok@outlook.com</a>
     </p>
   </main>
 
   <footer>
-    <p>© 2025 Nordbok | Contact: <a href="mailto:nordbok@outlook.com" style="color:white;">nordbok@outlook.com</a></p>
+    <p>© 2025 Nordbok &nbsp;|&nbsp; Contact: <a href="mailto:nordbok@outlook.com">nordbok@outlook.com</a> &nbsp;|&nbsp;
+      Terms: <a href="https://nordbok.github.io/Nordbok.Support/terms.html">/terms.html</a></p>
   </footer>
 </body>
-</html>
+</html>    
